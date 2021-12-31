@@ -12,6 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FDF6DDF073834C74BF01AC5F /* PSBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23809290EEF34D53A610EE13 /* PSBold.ttf */; };
+		1C3D2EFDB2AE45AE8C2D6A81 /* PSBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC5E268B894A979B65E5BC /* PSBoldItalic.ttf */; };
+		0B709114D6EB48449C2E8C58 /* PSItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CE7DE72F7094848B3BC93A0 /* PSItalic.ttf */; };
+		2E63E4202D2E49038EE5A84B /* PSRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B8A7D1FCD84FB2B24BC6F2 /* PSRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Aldoly/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Aldoly/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		23809290EEF34D53A610EE13 /* PSBold.ttf */ = {isa = PBXFileReference; name = "PSBold.ttf"; path = "../assets/fonts/PSBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0ADC5E268B894A979B65E5BC /* PSBoldItalic.ttf */ = {isa = PBXFileReference; name = "PSBoldItalic.ttf"; path = "../assets/fonts/PSBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CE7DE72F7094848B3BC93A0 /* PSItalic.ttf */ = {isa = PBXFileReference; name = "PSItalic.ttf"; path = "../assets/fonts/PSItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90B8A7D1FCD84FB2B24BC6F2 /* PSRegular.ttf */ = {isa = PBXFileReference; name = "PSRegular.ttf"; path = "../assets/fonts/PSRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				00E356EF1AD99517003FC87E /* AldolyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				C23E3E28DB2747ACB7CF0CAC /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +132,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		C23E3E28DB2747ACB7CF0CAC /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				23809290EEF34D53A610EE13 /* PSBold.ttf */,
+				0ADC5E268B894A979B65E5BC /* PSBoldItalic.ttf */,
+				8CE7DE72F7094848B3BC93A0 /* PSItalic.ttf */,
+				90B8A7D1FCD84FB2B24BC6F2 /* PSRegular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +235,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FDF6DDF073834C74BF01AC5F /* PSBold.ttf in Resources */,
+				1C3D2EFDB2AE45AE8C2D6A81 /* PSBoldItalic.ttf in Resources */,
+				0B709114D6EB48449C2E8C58 /* PSItalic.ttf in Resources */,
+				2E63E4202D2E49038EE5A84B /* PSRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
